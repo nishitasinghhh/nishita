@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nishita Singh</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+   
+    <div id="header">
+        <div class="container">
+            <nav>
+           <img src="images/Screenshot 2024-06-11 at 4.17.53 AM.png" alt="" class="logo">
+           <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#socials">Socials</a></li>
+            <li><a href="#portfolio">portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+           </ul>
+           <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="hero">
+          <div class="header-text">
+            <p>Web Developer</p>
+            <h1>Hi, I'm <span>Nishita</span> <br>Singh From India</h1>
+        </div>
+        <div class="pic">
+          <img src="images/images.png" alt="">
+        </div>
+        </div>
+        
+        </div>
+    </div>
+    <!-------About------->
+    <div id="about">
+<div class="container">
+    <div class="row">
+        <div class="about-col-1">
+            <img src="images/8ACEAB2A-D92F-48C0-8480-38176271AE71.JPG" alt="" width="500" height="600">
+        </div>
+        <div class="about-col-2">
+            <h1 class="sub-title">ABOUT ME</h1>
+            <p>Hi! I'm Nishita, a second-year student at IIIT Bhopal with a passion for web development. As a MERN stack developer, I love creating dynamic web applications. I'm also enthusiastic about open-source contributions and continuously learning new technologies. Currently, I'm participating in GirlScript Summer of Code to further enhance my skills. When I'm not coding, I enjoy exploring the latest tech trends and working on personal projects.</p>
+            <div class="tab-title">
+                <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                <p class="tab-links" onclick="opentab('Achievements')">Achievements</p>
+                <p class="tab-links" onclick="opentab('education')">Education</p>
+            </div>
+            <div class="tab-contents active-tab" if="skills">
+              <ul>
+                <li><span>Technical</span><br>C, C++, Java</li>
+                <li><span>Web Skills</span><br>HTML, CSS, JavaScrip</li>
+                <li><span>Other Skills</span><br>Leadership, content writing</li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="Achievements">
+                <ul>
+                  <li><span>Hackathon</span><br>SIH Finalist, Fintech Finalist</li>
+                  <li><span>Coding</span><br>Solved almost 300 questions</li>
+                  <li><span>Mentorship</span><br>Codess.Cafe, NodeBrew</li>
+                </ul>
+              </div>
+              <div class="tab-contents" id="education">
+                <ul>
+                  <li><span>2022-2026</span><br>IIIT - Bhopal</li>
+                  <li><span>2020-2022</span><br>Mount Carmel School</li>
+                </ul>
+              </div>
+        </div>
+    </div>
+</div>
+    </div>
+    <!---------------------Skills------------------>
+    <div id="socials">
+      <div class="container">
+        <h1 class="sub-title">SOCIALS</h1>
+        <div class="services-list">
+          <div>
+            <i class="fa-brands fa-linkedin"></i>
+            <h2>LinkedIn</h2>
+            
+            <a href="https://www.linkedin.com/me?trk=p_mwlite_feed-secondary_nav">Learn More</a>
+          </div>
+          <div>
+            <i class="fa-brands fa-github"></i>
+            <h2>GitHub</h2>
+            
+            <a href="https://github.com/nishitasinghhh">Learn More</a>
+          </div>
+          <div>
+            <i class="fa-brands fa-square-instagram"></i>
+            <h2>Instagram</h2>
+            
+            <a href="https://www.instagram.com/nishita._2._2/">Learn More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!----------Portfolio---------->
+    <div id="portfolio">
+      <div class="container">
+        <h1 class="sub-title">MY PROJECTS</h1>
+        <div class="work-list">
+          <div class="work">
+            <img src="images/Screenshot 2024-06-11 at 7.44.28 PM.png" alt="">
+            <div class="layer">
+              <h3>Expense Tracker</h3>
+              <p>An expense tracker is a tool that helps you monitor and manage your spending by recording and categorizing your expenses.</p>
+              <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/Screenshot 2024-06-11 at 8.50.10 PM.png" alt="" height="300">
+            <div class="layer">
+              <h3>Book search</h3>
+              <p>Designed and Formulated adaptable Book Search application using React and integrated the Google Books API..</p>
+              <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/Screenshot 2024-06-11 at 8.28.38 PM.png" alt="" height="300">
+            <div class="layer">
+              <h3>Mystic India</h3>
+              <p>Established a tour and travel website which includes systematic color scheme,visually pleasing and organized interface.</p>
+              <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+          </div>
+        </div>
+        <a href="https://github.com/nishitasinghhh" class="btn">See More</a>
+      </div>
+    </div>
+    <!---------Contact------------>
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="sub-title">CONTACT ME</h1>
+            <p><i class="fa-solid fa-paper-plane"></i> contact@example.com</p>
+            <p><i class="fa-solid fa-phone"></i> 7909466897</p>
+            <a href="images/Nishita_Singh_Resume (19).pdf" download class="btn btn2">Download Resume</a>
+          </div>
+          <div class="contact-right">
+            <form name="submit-to-google-sheet">
+              <input type="text" name="Name" placeholder="Your Name" required >
+              <input type="email" name="Email" placeholder="Your Email" required>
+              <textarea name="Message"  rows="6" placeholder="Your Message"></textarea>
+              <button type="submit" class="btn btn2">Submit</button>
+            </form>
+            
+          </div>
+        </div>
+      </div>
+      <din class="copyright">
+        <p>Made By Nishita Singh  <i class="fa-solid fa-heart"></i></p>
+      </din>
+    </div>
+    <script src="index.js"></script>
+    <script src="second.js"></script>
+    <script>
+      const scriptURL = 'https://script.google.com/macros/s/AKfycbxFNTgZhiPXjfnTG1rsuDEbTCH_hU5t8DZ3Py6kZy_izSddi05GYUwq0AzYmU0wv2NUEw/exec'
+      const form = document.forms['submit-to-google-sheet']
+
+      form.addEventListener('submit', e => {
+        e.preventDefault()
+        fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+          .then(response => console.log('Success!', response))
+          .catch(error => console.error('Error!', error.message))
+      })
+    </script>
+</body>
+</html>
