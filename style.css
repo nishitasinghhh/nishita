@@ -317,6 +317,12 @@ form input,form textarea{
     font-size: 18px;
     border-radius: 6px;
 }
+form input::placeholder{
+    color: white;
+}
+form textarea::placeholder{
+    color: white;
+}
 form .btn2{
     padding: 14px 60px;
     font-size: 18px;
